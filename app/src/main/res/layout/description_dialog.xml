@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/descriptionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_name_with_argument"
+        android:textSize="16sp"
+        android:textColor="@color/matte_black"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"/>
+
+    <TextView
+        android:id="@+id/descriptionPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/matte_black"
+        android:text="@string/price_with_argument"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/descriptionDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/matte_black"
+        android:text="@string/description_with_argument"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/descriptionCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/category_with_argument"
+        android:textColor="@color/matte_black"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/descriptionBought"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bought_with_argument"
+        android:textColor="@color/matte_black"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:textSize="16sp" />
+
+</LinearLayout>
